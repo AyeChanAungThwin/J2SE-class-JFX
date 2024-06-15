@@ -11,9 +11,9 @@ public class JFXStarter extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		// TODO Auto-generated method stub    
-	    Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
+	    Parent root = FXMLLoader.load(getClass().getResource("ComboBoxView.fxml"));
 	    
-	    primaryStage.setTitle("Login Application");
+	    primaryStage.setTitle("File Chooser");
 	    
 		Scene scene = new Scene(root);
 		primaryStage.setScene(scene);
@@ -21,6 +21,9 @@ public class JFXStarter extends Application {
 	}
 	
 	public static void run(String[] args) {
+		//Main.fxml
+		//FileChooser.fxml
+		//ComboBox
 		launch(args);
 	}
 }
